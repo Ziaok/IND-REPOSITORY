@@ -1,9 +1,56 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link rel="stylesheet" href="sheet.css">
+
+</head>
 <body>
 
-<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+<div class="wrapper">
+<div class="flag" align="center">
+<div class="round-red">
+</div>
+</div>
+</div>
+
+<div class="ramme">
+<div class="green">
+<div class="kvit">
+<div class="oransje">
+</div>
+</div>
+</div>
+</div>
+
+<div class="russisk">
+<div class="goo"> </div>
+<div class="oog"> </div>  
+<div class="aaa"> </div>
+</div>
+
+<canvas id="myCanvas" width="600" height="375" style="border:1px solid #ffffff;">
 </canvas>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+// Create gradient
+var grd = ctx.createLinearGradient(0, 0, 600, 0);
+grd.addColorStop(0, "yellow");
+grd.addColorStop(1, "black");
+    
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(0, 0, 600, 375);
+</script>
+<script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.font = "35px Comic Sans MS";
+    ctx.strokeText("Joackim", 235, 187);
+    ctx.fillStyle = "black";
+    
+</script>
 
 </body>
 </html>
