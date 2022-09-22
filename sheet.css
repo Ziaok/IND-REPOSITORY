@@ -1,0 +1,68 @@
+body {
+     background: rgb(0, 0, 0);
+     margin: 100px;
+
+}
+
+.flag {
+    width: 600px;
+    height: 375px;
+    background: white;
+    display:table-cell;
+    vertical-align: middle;
+}
+.round-red {
+    width: 200px;
+    height: 200px;
+    background: crimson;
+    border-radius: 50%;
+}
+.ramme {
+    position: absolute;
+    top: 100px;
+    left: 800px
+    }
+.green {
+    width: 200px;
+    height: 375px;
+    background: green;
+}
+.kvit{
+    width: 200px;
+    height: 375px;
+    background: white;
+    margin-left: 200px;
+}
+.oransje{  
+    width: 200px;
+    height: 375px;
+    background: orange;
+    margin-left: 200px;
+}
+.russisk {
+    margin-top: 100px;
+}
+.goo{
+    width: 600px;
+    height: 125px;
+    background: white;
+
+}
+.oog{
+    width: 600px;
+    height: 125px;
+    background: blue;
+    margin-top: 0;
+}
+.aaa{
+    width: 600px;
+    height: 125px;
+    background:red;
+    margin-top: 0px;
+
+}
+#myCanvas {
+    position: absolute;
+    left: 800px;
+    top: 575px;
+}
